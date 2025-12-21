@@ -3,20 +3,25 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
+import Navbar from './components/NavBar'
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
+export default function App() {
   return (
     <>
-      <div><h1> Jarvis, Stroke it a lil'</h1></div>
-      <div><img src='https://www.meme-arsenal.com/memes/25e492096d315034df6516fa16694af6.jpg'></img></div>
-      <div>
-        <button onClick={() => setCount((count) => count + 2)}>
-          Times Stroked: {count}
-        </button>
-      </div>
+      <Navbar />
+      <main>
+        <Hero />
+        <Contact />
+        <About />
+        <Skills />
+        <Projects />
+        I live to code.
+      </main>
     </>
-  )
+  );
 }
-
-export default App
