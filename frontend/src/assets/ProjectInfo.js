@@ -40,7 +40,8 @@ const info = {
         Personal project built and finished in Roblox using Lua. Implemented 
         client-server architecture for player behavior featuring 
         server-authoritative game logic, synchronized player movement, 
-        and modular systems for scalability and exploit prevention.
+        and modular systems for scalability and exploit prevention. 
+        Reaching a player count of 13,000.
 
       `,
     used: "Roblox Lua - Heavy Debugging - Game Sytems - Client - Server Architecture",

@@ -3,7 +3,7 @@ export default function About() {
   const aboutMe =`Fully committed to the philosophy of life-long learning. Making use of my broad developing skillset; 
 The unique combination of creativity, logic, technology and never running out of new things to discover, 
 drives my excitement and passion for web  and software development. 
-When I’m not at my computer (very rare) I like to spend my with friends and family.`;
+When I’m not at my computer (very rare) I like to spend my time with friends and family.`;
 
   const skillPro = {
     "JavaScript":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg",
