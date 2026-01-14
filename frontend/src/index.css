@@ -1,7 +1,13 @@
+
+div {
+  /* background-color: #88888830; */
+}
+
 :root {
   --bg: #0f172a;
   --fg: #e5e7eb;
   --accent: #38bdf8;
+  --dark: #020617;
 }
 
 * {
@@ -59,10 +65,15 @@ a {
 }
 
 .section {
-  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  max-width: 75%;
   margin: 1rem auto;
-  padding: 0 1.5rem;
+  padding: 2rem 1.5rem;
 }
+
 
 .skills-grid {
   display: grid;
@@ -79,9 +90,25 @@ a {
   text-align: center;
 }
 
-.project-card {
+.project {
   background: #020617;
   padding: 1.5rem;
   border-radius: 12px;
   margin: 1rem;
+}
+
+
+h2 {
+  font-size: xx-large;
+  margin: 10rem;
+  margin-bottom: 2rem
+}
+
+p, a {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+li {
+  list-style-type:none;
 }
