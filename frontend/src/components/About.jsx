@@ -40,7 +40,7 @@ When I’m not at my computer (very rare) I like to spend my time with friends a
         <div className="item about-skills">
           <ul className="skills-grid">
             {Object.entries(skillPro).map(([skill, source]) => (
-              <li key={skill} className="skills-item">
+              <li key={skill} className="skills-item bruhh">
                 <div className="skills-item-div">
                   <img
                   className="skills-item-icon"
@@ -53,26 +53,9 @@ When I’m not at my computer (very rare) I like to spend my time with friends a
             ))}
           </ul>
           
-
-          {/* <ul className="skills-grid">
-            {skills.map((skill) => (
-              <li key={skill} className="skill-item">
-                <div>
-                  <img
-                  className="skill-item-icon"
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz6mgCu--iOa56W7MVBMStGC2xk500lH6L9g&s"
-                ></img>
-                </div>
-                {skill}
-              </li>
-            ))}
-          </ul> */}
         </div>
       </div>
-      {/* <p>
-        I live to solve problems, as do I live to design new ideas. <br></br>
-        Computer Science; the only major that will satisfy these desires.
-      </p> */}
+      
     </section>
   );
 }
